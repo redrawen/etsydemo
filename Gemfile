@@ -16,6 +16,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'paperclip', '~>4.2'
 
+gem "paperclip-dropbox", ">= 1.1.7"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -24,7 +25,8 @@ gem 'paperclip', '~>4.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem "figaro"
+gem 'devise'
 
 group :production do
   gem 'pg'

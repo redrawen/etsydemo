@@ -1,5 +1,13 @@
 @import "bootstrap";
 
+.jumbotron{
+background-image: url('jumbotron.jpg');
+  h1,h2 {
+    font-family: guardian-egyptt, georgia, serif;
+    color: white;
+  }
+}
+
 body {
   background-color: #F5F5F1;
   color: #333333;

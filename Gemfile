@@ -17,6 +17,8 @@ gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'paperclip', '~>4.2'
 
 gem "paperclip-dropbox", ">= 1.1.7"
+gem 'stripe'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
